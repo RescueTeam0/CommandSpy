@@ -1,0 +1,11 @@
+name: CommandSpy
+version: '${project.version}'
+main: me.rescueteam.commandspy.CommandSpy
+api-version: 1.16
+authors: [ RescueTeam ]
+description: Know what commands are your players executing
+commands:
+  commandspy:
+    usage: /<command>
+    aliases:
+      - cspy

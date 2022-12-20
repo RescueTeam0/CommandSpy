@@ -1,0 +1,40 @@
+# Available PlaceHolders are shown on the right of messages
+# HEX color are available using "&#CODE" (e.g. &#FF0000)
+
+format: "&#8EEAFF&lCommandSpy &8| &f%sender% &8› &7/%command%" # %command%
+enabled: "&aCommandSpy was enabled"
+already-enabled: "&aCommandSpy is already enabled!"
+disabled: "&cCommandSpy was disabled"
+already-disabled: "&cCommandSpy is already disabled"
+status-enabled: "&aCommandSpy is currently enabled."
+status-disabled: "&cCommandSpy is currently disabled. Use &7/commandspy help &cfor help"
+reloaded: "&aCommandSpy was successfully &lreloaded &7(%time%ms)" # %time% (milliseconds)
+enabled-other: "&aCommandSpy enabled for %target%" # %target%
+already-enabled-other: "&aCommandSpy is already enabled for %target%" # %target%
+disabled-other: "&cCommandSpy disabled for %target%" # %target%
+already-disabled-other: "&cCommandSpy is already disabled for %target%" # &target%
+player-not-found: "&cThis player isn't online"
+no-permission: "&cYou don't have the permission to execute this command!"
+ignored-commands:
+  - "register"
+  - "login"
+  - "ignored-command"
+
+# Permissions:
+# commandspy.use        // You can enable or disable the CommandSpy feature, main permission
+# commandspy.see        // Permission necessary to receive CommandSpy messages
+# commandspy.use.other  // You can enable or disable CommandSpy for other players
+# commandspy.reload     // You can reload the config file
+# commandspy.bypass     // Your commands cannot be spied by anyone
+
+# Menù customization
+help-title: "&#4FD3FF&lHelp menù &#4FD3FF(/%command%)" # %command%
+help-desc: "Opens this help menù"
+reload-desc: "Reloads the config file"
+enable-desc: "Enables CommandSpy\n&bAlias: &7on"
+disable-desc: "Disables CommandSpy\n&bAlias: &7off"
+enable-other-desc: "Enables CommandSpy for a specified player\n&bAlias: &7on <player>"
+disable-other-desc: "Disables CommandSpy for a specified player\n&bAlias: &7off <player>"
+help-footer: "&7Hover on commands for more"
+# This message will be sent instead of the help menù to players without commandspy.use permission
+default-message: "&8[&a&l✓&8] &7Running CommandSpy &fv%version% &7by RescueTeam" # %version%
